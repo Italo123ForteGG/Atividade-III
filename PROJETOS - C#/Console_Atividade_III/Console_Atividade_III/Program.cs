@@ -16,6 +16,9 @@ namespace Console_Atividade_III
             if (idade < 18 )
             {
                 Console.WriteLine("Desculpe-me, você não é idependente.");
+            }else
+            {
+                Console.WriteLine("Parabens você ganhou um carro.");
             }
         }
     }
