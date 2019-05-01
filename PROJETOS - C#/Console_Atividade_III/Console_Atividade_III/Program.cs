@@ -10,13 +10,10 @@ namespace Console_Atividade_III
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Informe o seu primeiro nome: ");
-            Console.WriteLine("");
-            Console.WriteLine("Informe o seu segundo nome: ");
-            Console.WriteLine("");
-            Console.WriteLine("Informe a sua idade : ");
-            Console.WriteLine("");
-            Console.ReadLine();
+            Console.WriteLine("Informe a sua idade: ");
+            int idade = int.Parse(Console.ReadLine());
+
+
         }
     }
 }
