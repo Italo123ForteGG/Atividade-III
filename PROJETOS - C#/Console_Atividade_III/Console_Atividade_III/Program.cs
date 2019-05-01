@@ -13,7 +13,10 @@ namespace Console_Atividade_III
             Console.WriteLine("Informe a sua idade: ");
             int idade = int.Parse(Console.ReadLine());
 
-
+            if (idade < 18 )
+            {
+                Console.WriteLine("Desculpe-me, você não é idependente.");
+            }
         }
     }
 }
